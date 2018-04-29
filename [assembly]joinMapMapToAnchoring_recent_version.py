@@ -129,7 +129,7 @@ def revcom(s):
         return result
 
 if __name__=="__main__":
-	''' python script _ JM_out JM_out_reformed(a) contig.fa file_out   '''
+	''' python script _(delimeter) JM_out JM_out_reformed(automatically_made) contig.fa file_out '''
 	JM_list = open(sys.argv[2],'r').readlines()
 	reformed_JM_out_file	= sys.argv[3]
 	contig_fa	= open(sys.argv[4],'r').read()
